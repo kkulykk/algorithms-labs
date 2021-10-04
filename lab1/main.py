@@ -29,7 +29,7 @@ def test_case_1(algorithm) -> tuple:
     """
     Perform test No. 1 with random array
     """
-    size = 2
+    size = 2**7
     results = {}
     for i in range(9):
         average_time = 0
@@ -49,7 +49,7 @@ def test_case_2(algorithm) -> tuple:
     """
     Perform test No. 2 with sorted array
     """
-    size = 2
+    size = 2**7
     results = {}
     for i in range(9):
         array = generate_array("sorted_array", size)
@@ -64,7 +64,7 @@ def test_case_3(algorithm) -> tuple:
     """
     Perform test No. 3 with reversed array
     """
-    size = 2
+    size = 2**7
     results = {}
     for i in range(9):
         array = generate_array("reversed_array", size)
@@ -79,7 +79,7 @@ def test_case_4(algorithm) -> tuple:
     """
     Perform test No. 4 with repeating array
     """
-    size = 2
+    size = 2**7
     results = {}
     for i in range(9):
         average_time = 0
